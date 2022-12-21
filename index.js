@@ -59,11 +59,7 @@ const questions = [
 function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.createPromptModule(questions).then(userInput) {
-        const markdownStringify = generateMarkdown(userInput)
-    }
-}
+function init() { }
 
 // Function call to initialize app
 init();
