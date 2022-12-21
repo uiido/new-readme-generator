@@ -10,7 +10,8 @@ function generateMarkdown(data) {
   // If there is no license, return an empty string
 
   // TODO: Create a function to generate markdown for README
-  return `# ${data.title}
+  return `
+  # ${data.title}
 
 ## Table of Contents
 - [Description](#description)
