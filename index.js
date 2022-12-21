@@ -66,7 +66,7 @@ function init() {
         const newMarkdown = generateMarkdown(userInput)
 
         // TODO: Create a function to write README file
-        fs.newFile('README.md', newMarkdown, function (err) {
+        fs.writeFile('README.md', newMarkdown, function (err) {
             if (err) {
                 console.log(err)
             }

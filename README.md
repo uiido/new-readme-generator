@@ -1,16 +1,38 @@
-# New README Generator
 
-[Link to my project](https://github.com/uiido/new-readme-generator)
-
-[Link to my project page]()
+  # Test Readme Generation
 
 ## Table of Contents
 - [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Data](#tests)
+- [License](#license)
+- [Author](#author)
 - [Visuals](#visuals)
 
 ## Description
-This is a web application that allows users to quickly and easily generate a new README document for their application. It will ask users for information such as a name, license, description, and add these values into a dymanically generated document.
+This application is a test readme
+
+## Installation
+You install it via Github download
+
+## Usage
+You use it in a code editor
+
+## Contributing
+You reach out to the author and use a new branch to push updates
+
+## Tests
+Download the application and run it
+
+## License
+![badge](https://img.shields.io/badge/license-MIT-important)
+<br>
+Permission to use this application is granted under the MIT license. <https://opensource.org/licenses/MIT>
+
+## Author
+Erin Bowen
 
 ## Visuals
-
-![Website Sample](./assets/screenshot.png)
+![Screenshot](N/A)
