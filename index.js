@@ -40,7 +40,7 @@ const questions = [
     },
     {
         name: 'screenshot',
-        message: 'What is the path to your screenshot?'
+        message: 'What is the path to your screenshot?',
         type: 'input'
     },
     {
@@ -50,11 +50,20 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
-
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+
+
+    // TODO: Create a function to write README file
+    fs.createFile('README.md', newMarkdown, function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log('Congrats! You just created a new README!');
+        }
+    })
+
+}
 
 // Function call to initialize app
 init();
