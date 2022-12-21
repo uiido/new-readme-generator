@@ -35,4 +35,4 @@ Permission to use this application is granted under the MIT license. <https://op
 Erin Bowen, who can be reached at erinsgithubemail@gmail.com.
 
 ## Visuals
-![Screenshot](N/A)
+![Screenshot](./assets/screenshot.png)
