@@ -17,11 +17,6 @@ const questions = [
         type: 'input'
     },
     {
-        name: 'install',
-        message: 'How is this application installed?',
-        type: 'input'
-    },
-    {
         name: 'usage',
         message: 'How do I use this application?',
         type: 'input'
@@ -46,11 +41,6 @@ const questions = [
     {
         name: 'username',
         message: 'Please provide your github login email:',
-        type: 'input'
-    },
-    {
-        name: 'fileName',
-        message: 'What is the name of this README?',
         type: 'input'
     },
 ];
