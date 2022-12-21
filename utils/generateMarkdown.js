@@ -44,7 +44,7 @@ ${data.tests}
 Permission to use this application is granted under the ${data.license} license. <https://opensource.org/licenses/${data.license}>
 
 ## Author
-${data.author}
+${data.author}, who can be reached at ${data.username}.
 
 ## Visuals
 ![Screenshot](${data.screenshot})
