@@ -39,6 +39,11 @@ const questions = [
         type: 'input'
     },
     {
+        name: 'screenshot',
+        message: 'What is the path to your screenshot?'
+        type: 'input'
+    },
+    {
         name: 'username',
         message: 'Please provide your github login email:',
         type: 'input'
