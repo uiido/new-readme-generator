@@ -15,8 +15,10 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 - [Description](#description)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Data](#tests)
 - [License](#license)
 - [Author](#author)
 - [Visuals](#visuals)
@@ -24,21 +26,29 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+## Installation
+${data.installation}
+
 ## Usage
 ${data.usage}
 
 ## Contributing
 ${data.contributing}
 
+## Tests
+${data.tests}
+
 ## License
-${data.license}
+![badge](https://img.shields.io/badge/license-${data.license}-important)
+<br>
+Permission to use this application is granted under the ${data.license} license. <https://opensource.org/licenses/${data.license}>
 
 ## Author
 ${data.author}
 
 ## Visuals
 ![Screenshot](${data.screenshot})
-`
+`;
 }
 
 module.exports = generateMarkdown;

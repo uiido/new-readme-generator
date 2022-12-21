@@ -17,6 +17,11 @@ const questions = [
         type: 'input'
     },
     {
+        name: 'installation',
+        message: 'How do I install this application?',
+        type: 'input'
+    },
+    {
         name: 'usage',
         message: 'How do I use this application?',
         type: 'input'
@@ -24,6 +29,11 @@ const questions = [
     {
         name: 'contributing',
         message: 'How do I contribute to this application?',
+        type: 'input'
+    },
+    {
+        name: 'tests',
+        message: 'How can I test application?',
         type: 'input'
     },
     {
